@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '_normalize.scss';
+@import '_forms.scss';
+
+:root {
+  --header-size: 71px;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  @apply mx-auto;
+}
+
+header {
+  z-index: 90;
+}
+main {
+  flex: 1;
+  margin-top: var(--header-size);
+}
+.dropdown {
+  .dropdown-parent {
+    @apply hidden;
+    min-width: 10rem;
+  }
+  &:hover {
+    .dropdown-parent {
+      @apply block;
+    }
+  }
+}
