@@ -1,11 +1,12 @@
 # Simple Ecommerce + API with React, Node & MongoDB
+
 *NOT a UI Design project*  
+
 Simple implementation of an ecommerce store with minor UI styling.
 Add To Cart functionality using Redux and products API built with NodeJS and a local MongoDB database.
 
-<img src="https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/homepage-desktop.png" />
-<img src="https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/productpage-desktop.png" />
-<img src="https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/cart-desktop.png" />
-<img src="https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/emptycart-desktop.png" />
-
+![Homepage for Desktop](https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/homepage-desktop.png)
+![Product Page for Desktop](https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/productpage-desktop.png)
+![Cart Page for Desktop](https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/cart-desktop.png)
+![Empty Cart for Desktop](https://raw.githubusercontent.com/gianluigitrontini/preview-images/main/full-ecommerce/emptycart-desktop.png)
 
